@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+.banner {
+    width: 100vw;
+    height: 30vw;
+    background-image: url(Simple\ Work\ LinkedIn\ Banner.png);
+    background-repeat: none;
+    background-size: cover;
+    position: relative;
+    
+
+}
+
+.banner >h1 {
+    padding-top: 22%;
+    text-align: center;
+    color: goldenrod;
+}
+
+.head-pic {
+    width: 15vw;
+    border-radius: 50%;
+    position: absolute;
+    left: 42.5vw;
+    top: 5vw;
+}
+
+.navigation-bar {
+    width: 100vw;
+    background-color: black;
+    color: cadetblue;
+    position: relative;
+    
+}
+
+.menu1 >li {
+    
+    padding: 10px;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+.menu1{
+    display: inline;
+}
+
+.menu2 > li {
+    padding: 10px;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+.menu2{
+    display: inline;
+    position: absolute;
+    right: 5%;
+}
+.gray-section{
+    background-color: lightblue;
+    width: 70vw;
+    height: 100vh;
+    position: relative;
+    left: 15vw;
+    box-sizing: border-box;
+}
+
+i {
+    color: black;
+}
+article {
+    width: 35%;
+    height: 20%;
+    border: solid 2px cadetblue;
+    border-radius: 10px;
+    font-size: .67rem;
+    text-align: justify;
+    margin: 2%;
+    box-sizing: border-box;
+    padding:5%;
+    background-color: rgb(219, 231, 231);
+}
+
+
+
+.vl {
+    border-left: 1px solid rgb(219, 231, 231);
+    height: 90vh;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 5%;
+  }
+#lorem1{
+    position: absolute;
+    left:0;
+}
+
+#lorem1-bullet{
+    color: cadetblue;
+    height: 5%;
+    position: absolute;
+    top: 13%;
+    left:50%;
+    margin-left: -10.7px;
+    padding: 0;
+    z-index: 10;
+}
+
+#lorem3-bullet{
+    color: cadetblue;
+    height: 5%;
+    position: absolute;
+    top: 61%;
+    left:50%;
+    margin-left: -10.7px;
+    padding: 0;
+    z-index: 10;
+}
+
+#lorem2-bullet{
+    color:rgb(197, 132, 52);
+    height: 5%;
+    position: absolute;
+    top: 35%;
+    left:50%;
+    margin-left: -10.7px;
+    padding: 0;
+    z-index: 10;
+}
+
+#lorem4-bullet {
+    color:rgb(197, 132, 52);
+    height: 5%;
+    position: absolute;
+    bottom: 9%;
+    left:50%;
+    margin-left: -10.7px;
+    padding: 0;
+    z-index: 10;
+}
+
+#lorem2{
+    position: absolute;
+    right: 0;
+    top:25%;
+    border: 2px solid rgb(197, 132, 52);
+}
+#lorem3 {
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+#lorem4 {
+    position: absolute;
+    right: 0;
+    bottom:0%;
+    border: 2px solid rgb(197, 132, 52);
+}
+
