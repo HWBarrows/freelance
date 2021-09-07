@@ -161,3 +161,63 @@ article {
     border: 2px solid rgb(197, 132, 52);
 }
 
+.hover-box-section {
+    background-color: lightblue;
+    width: 70vw;
+    height: 60vh;
+    position: relative;
+    left: 14.5vw;
+    box-sizing: border-box;
+    border: solid 2px black;
+    margin:10px;
+}
+ 
+.colors {
+    width: 33vw;
+    height: 28vh;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 2%;
+    padding-top: 8%;
+}
+
+#hover1 {
+    background-color: rgb(245, 170, 57);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+#hover1:hover {
+    z-index: 20;
+}
+
+#hover2 {
+    background-color: rgb(20, 160, 160);
+    position: absolute;
+    left: 18.5vw;
+    top: 14vh;
+    z-index: 10;
+}
+
+#hover2:hover {
+    z-index: 20;
+}
+
+#hover3{
+    background-color: violet;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 15;
+}
+
+#hover3:hover {
+
+    position: absolute;
+    right: 3.5vw;
+    bottom: 5vw;
+    z-index: 20;
+    
+}
