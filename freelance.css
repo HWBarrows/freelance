@@ -4,6 +4,9 @@
     font-family: monospace;
 }
  
+html{
+    scroll-behavior: smooth;
+}
 .banner {
     width: 100vw;
     height: 30vw;
@@ -285,8 +288,11 @@ article {
     top: 9px;
 }
 
+#home-button:visited {
+    color: cornsilk
+}
+
 #home-button:hover {
-    background-color: darkgreen;
-    width:60px;
-    right: 8px;
+    background-color: cadetblue;
+   
 }
