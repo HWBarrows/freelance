@@ -11,8 +11,13 @@
     background-repeat: none;
     background-size: cover;
     position: relative;
-    
+}
 
+.cropped-banner {
+    height: 10vw;
+    background-image: url(Simple\ Work\ LinkedIn\ Banner.png);
+    background-repeat: none;
+    background-size: cover;
 }
 
 .banner >h1 {
@@ -33,11 +38,23 @@
     width: 100vw;
     background-color: black;
     color: cadetblue;
-    /* position: relative; */
     position: sticky;
     top: 0;
-    z-index: 30;
-    
+    z-index: 30; 
+}
+
+.signs {
+    color: cadetblue;
+    text-decoration: none;
+}
+
+.signs:visited {
+    color: darkcyan;
+}
+
+.signs:hover{
+    color: whitesmoke;
+    font-weight: bold;
 }
 
 .menu1 >li {
@@ -49,6 +66,8 @@
 
 .menu1{
     display: inline;
+    padding-left: 4%;
+
 }
 
 .menu2 > li {
@@ -61,6 +80,7 @@
     position: absolute;
     right: 5%;
 }
+
 .gray-section{
     background-color: lightblue;
     width: 70vw;
@@ -68,7 +88,16 @@
     position: relative;
     left: 15vw;
     box-sizing: border-box;
-    
+}
+
+.gray-section-cropped {
+    background-color: lightblue;
+    width: 70vw;
+    height: 70vh;
+    position: relative;
+    left: 15vw;
+    box-sizing: border-box;
+}
 }
 
 i {
@@ -254,4 +283,10 @@ article {
     position: absolute;
     right: 10px;
     top: 9px;
+}
+
+#home-button:hover {
+    background-color: darkgreen;
+    width:60px;
+    right: 8px;
 }
