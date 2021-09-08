@@ -7,6 +7,8 @@
 html{
     scroll-behavior: smooth;
 }
+
+/* Styling for index page */
 .banner {
     width: 100vw;
     height: 30vw;
@@ -16,11 +18,11 @@ html{
     position: relative;
 }
 
-.cropped-banner {
+/* .cropped-banner {
     height: 10vw;
     background-image: url(Simple\ Work\ LinkedIn\ Banner.png);
     background-repeat: none;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .banner >h1 {
@@ -93,15 +95,15 @@ html{
     box-sizing: border-box;
 }
 
-.gray-section-cropped {
+/* .gray-section-cropped {
     background-color: lightblue;
     width: 70vw;
     height: 70vh;
     position: relative;
     left: 15vw;
     box-sizing: border-box;
-}
-}
+} */
+
 
 i {
     color: black;
@@ -141,7 +143,7 @@ article {
     position: absolute;
     top: 13%;
     left:50%;
-    margin-left: -10.7px;
+    margin-left: -10.8px;
     padding: 0;
     z-index: 10;
 }
@@ -172,9 +174,9 @@ article {
     color:rgb(197, 132, 52);
     height: 5%;
     position: absolute;
-    bottom: 9%;
+    bottom: 11%;
     left:50%;
-    margin-left: -10.7px;
+    margin-left: -11px;
     padding: 0;
     z-index: 10;
 }
@@ -295,4 +297,22 @@ article {
 #home-button:hover {
     background-color: cadetblue;
    
+}
+
+/* styling for other pages */
+
+.cropped-banner {
+    height: 10vw;
+    background-image: url(Simple\ Work\ LinkedIn\ Banner.png);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.gray-section-cropped {
+    background-color: lightblue;
+    width: 70vw;
+    height: 70vh;
+    position: relative;
+    left: 15vw;
+    box-sizing: border-box;
 }
