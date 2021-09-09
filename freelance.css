@@ -189,11 +189,10 @@ article {
     width: 70vw;
     height: 70vh;
     position: relative;
-    left: 14.5vw;
-    margin:10px;
-    
+    left: 15vw;
+    margin-top: 10px;
+    margin-bottom: 60px; 
     box-sizing: border-box;
-    margin-bottom: 60px;
 }
  
 .colors {
@@ -205,6 +204,7 @@ article {
     padding-top: 8%;
     overflow: hidden;
     margin: 1%;
+    box-sizing: border-box;
 }
 
 #hover1 {
